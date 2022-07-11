@@ -1,0 +1,525 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.wrapper{
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+}
+.wrapper_chitiet{
+	height: auto;
+	width: 90%;
+	margin: 0 auto;
+	margin-left: 25em;
+}
+.hinhanh_sanpham{
+	float: left;
+	width: 40%;
+}
+.chitiet_sanpham{
+	float: left;
+	width: 45%;
+	margin-left: 40px;
+    margin-top: 20px;
+}
+.muasanpham {
+	min-width: auto;
+    width: 80%;
+    font-size: 2em;
+    height: 60px;
+    background: #222222;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 6em;
+    border-radius: 13px;
+}
+h5 {
+    font-style: italic;
+}
+
+.logo{
+	background: #FFFFFF;
+	width: 100%;
+	height: 190px;
+}
+.logo ul{
+	list-style: none;
+	margin: 0;
+}
+.logo ul li{
+    height: 100%;
+    list-style: none;
+    float: left;
+    margin-left: 18px;
+}
+.logo ul li > a{
+	text-decoration: none;
+	color: #222222;
+	font-size:22px;
+}
+.logo li img{
+	width: 100%;
+    height: 100%;
+}
+.logo_small {
+    padding-top: 75px;
+
+}
+
+i.fas.fa-shopping-cart {
+    font-size: 33px;
+    color: #000;
+}
+i.fas.fa-shopping-cart:hover{
+	font-size: 40px;
+}
+i.fab.fa-facebook-square{
+	font-size: 35px;
+    color: #000;
+}
+i.fab.fa-facebook-square:hover{
+	font-size: 40px;
+}
+i.fab.fa-instagram{
+	font-size: 35px;
+    color: #000;
+}
+i.fab.fa-instagram:hover{
+	font-size: 40px;
+}
+i.fas.fa-search{
+	font-size: 17px;
+}
+i.fas.fa-sign-in-alt {
+    font-size: 20px;
+}
+i.fas.fa-sign-out-alt{
+	font-size: 20px;
+}
+i.fas.fa-shopping-bag{
+	font-size: 20px;
+}
+i.far.fa-newspaper{
+	font-size: 20px;
+}
+i.far.fa-user{
+	font-size: 20px;
+}
+
+.header{
+	/* height: 550px; */
+	width: 100%;
+}
+.header img{
+	height: 650px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+.menu{
+	height: 60px;
+	width: 100%;
+	background: #FFFFFF;
+}
+.list_menu{
+	list-style: none;
+	padding: 0;
+	margin:0;
+	width: 100%;
+	margin: 0 auto;
+	line-height: 20px;
+	margin-left: 36em;
+}
+.list_menu > li{
+	float: left;
+	margin: 7px;
+	padding: 7px;
+	position: relative;
+}
+.list_menu > li a:hover{
+	color: #D3D3D3;
+}
+.list_menu > li > a{
+	text-decoration: none;
+	text-align: center;
+	color: #222222;
+	font-size:22px;
+}
+.submenu{
+	width: 200px;
+	background: #FFFFFF;
+	min-height: 150px;
+	position: absolute;
+	display: none;
+	z-index: 999;
+}
+.submenu li{
+	list-style: none;
+}
+.submenu li a{
+	color: #222222;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+	font-size:22px;
+}
+.submenu li a:hover{
+	font-size: 30px;
+	color: #D3D3D3;
+
+}
+.list_menu > li:hover .submenu{
+	display: block;
+}
+
+
+
+#main{
+	height: auto;
+	width: 100%;
+
+}
+
+.maincontent{
+	height: auto;
+	width: 100%;
+	margin-top:5px;
+	margin-left: 5px;
+	float: right;
+	background-color: #fff;
+	margin: 0;
+}
+.product_list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.product_list li{
+	width: 19%;
+	height: 460px;
+	margin: 5px;
+	margin-left: 7px;
+	float: left;
+}
+
+.product_list li img{
+	width: 100%;
+	height: auto;
+	border-radius: 15px;
+}
+.product_list li:hover{
+	background: #777777;
+}
+
+.product_list li a{
+	text-decoration: none;
+}
+
+.title_product{
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.prince_product{
+	text-align: center;
+	font-size: 17px;
+	color: #000000;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+ul.baiviet li {
+    list-style: none;
+}
+ul.baiviet li img {
+	margin-left: 20em;
+}
+
+.footer{
+	height: 500px;
+	width: 100%;
+	background: #fff;
+}
+.footer ul{
+	float: left;
+	margin-left: 8em;
+}
+.footer ul li{
+	list-style: none;
+	font-style: italic;
+}
+.footer ul li p{
+	color: #1C1C1C
+}
+.footer ul li h3{
+	color: #1C1C1C
+}
+.footer ul li i {
+	}
+
+
+
+
+
+.clear{
+	clear: both;
+	height: 60px;
+}
+.title{
+	text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.list_trang{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	margin-left: 52em;
+}
+.list_trang li{
+	float: left;
+	padding: 5px 13px;
+	margin: 5px;
+	background: #000000;
+	display: block;
+	font-size: 20px;
+	border: solid;
+	border-radius: 10px;
+	color: #fff;
+}
+.list_trang li a{
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+th {
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+}
+td{
+	font-weight: bold;
+}
+i.fas.fa-plus {
+    font-size: 22px;
+    color: #000;
+    margin-right: 5px;
+}
+i.fas.fa-plus:hover{
+	color: #BBBBBB;
+	font-size: 25px;
+}
+i.fas.fa-minus {
+    font-size: 22px;
+    color: #000;
+    margin-left: 5px;
+}
+i.fas.fa-minus:hover{
+	color: #BBBBBB;
+	font-size: 25px;
+}
+i.fas.fa-trash-alt{
+	font-size: 25px;
+    color: #EE0000;
+}
+.btnback{
+	float: left;
+	font-size: 18px;
+	margin-top: 15px;
+	background: #000;
+	border-radius: 10px; 
+}
+table.dangky {
+    margin: 0 auto;
+    margin-bottom: 50px;  
+}
+table.dangky tr td {
+	padding: 10px;
+}
+.login{
+	width: 400px;
+	height: 450px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+	background-image: url(https://cdn.wallpapersafari.com/81/63/VtEaQF.jpg);
+}
+.login input {
+	width: 200px;
+	height: 40px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	padding-left: 20px;
+}
+.login button {
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border: none;
+	background-color: #000;
+	color: #fff;
+}
+.login button:hover{
+	font-size: 15px;
+}
+.sign_up button:hover{
+	font-size: 15px;
+}
+
+.sign_up{
+	width: 400px;
+	height: 450px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+	background-image: url(https://cdn.wallpapersafari.com/81/63/VtEaQF.jpg);
+}
+.sign_up input {
+	width: 200px;
+	height: 40px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	padding-left: 20px;
+}
+.sign_up button {
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border: none;
+	background-color: #000;
+	color: #fff;
+}
+.sign_up a{
+	color: grey;
+}
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+}
+
+.arrow-steps .step {
+  font-size: 14px;
+  text-align: center;
+  color: #777;
+  cursor: default;
+  margin: 0 1px 0 0;
+  padding: 10px 0px 10px 0px;
+  width: 15%;
+  float: left;
+  position: relative;
+  background-color: #ddd;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.arrow-steps .step a {
+  color: #777;
+  text-decoration: none;
+}
+
+.arrow-steps .step:after,
+.arrow-steps .step:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -17px;
+  width: 0;
+  height: 0;
+  border-top: 19px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 17px solid #ddd;
+  z-index: 2;
+}
+
+.arrow-steps .step:before {
+  right: auto;
+  left: 0;
+  border-left: 17px solid #fff;
+  z-index: 0;
+}
+
+.arrow-steps .step:first-child:before {
+  border: none;
+}
+
+.arrow-steps .step:last-child:after {
+  // border: none;
+}
+
+.arrow-steps .step:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.arrow-steps .step:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.arrow-steps .step span {
+  position: relative;
+}
+
+*.arrow-steps .step.done span:before {
+  opacity: 1;
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -10px;
+  font-size: 11px;
+  line-height: 21px;
+}
+
+.arrow-steps .step.current {
+  color: #fff;
+  background-color: #5599e5;
+}
+
+.arrow-steps .step.current a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.arrow-steps .step.current:after {
+  border-left: 17px solid #5599e5;
+}
+
+.arrow-steps .step.done {
+  color: #173352;
+  background-color: #2f69aa;
+}
+
+.arrow-steps .step.done a {
+  color: #173352;
+  text-decoration: none;
+}
+
+.arrow-steps .step.done:after {
+  border-left: 17px solid #2f69aa;
+}
+
+.btn-danger {
+	margin: 10px;
+	border-radius: 10px; 
+}
+.arrow-steps.clearfix {
+}

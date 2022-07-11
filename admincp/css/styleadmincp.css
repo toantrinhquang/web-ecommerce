@@ -1,0 +1,179 @@
+.admincp_list{
+	padding:0;
+	margin: 0;
+	list-style: none;
+}
+.admincp_list li {
+	float: left;
+	margin: 5px;
+}
+.clear{
+	clear: both;
+}
+.title_admin{
+	text-align: center;
+	font-size: 40px;
+}
+.wrapper{
+	border: 1px solid #FFFFFF;
+	height: 50px;
+	width: 100%;
+	background: #222222;
+}
+.admincp_list{
+	list-style: none;
+	padding: 0;
+	margin:0;
+	width: 70%;
+	margin: 0 auto;
+	line-height: 20px;
+}
+.admincp_list li{
+	margin: 7px;
+	padding: 7px;
+	border-right: solid 1px white; 
+}
+.admincp_list li:hover{
+	background: #777777;
+}
+.admincp_list li a{
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	font-size:22px;
+}
+.xuatexcel{
+    padding: 10px;  
+    margin: 10px;
+    font-size: 16px;
+    background: #000000;
+    color: #fff;
+    border: solid;
+    float: right;
+    border-radius: 19px;
+    cursor: pointer;
+}
+.xuatexcel:hover{
+	background: #555555;
+}
+.login_admincp{
+	width: 400px;
+	height: 450px;
+	border: 2px solid white;
+	border-radius: 10px;
+	text-align: center;
+	margin: auto;
+	margin-top: 15em;
+}
+.login_admincp input{
+	width: 200px;
+	height: 40px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	padding-left: 20px;
+}
+.login_admincp button{
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 20px;
+	border: none;
+	background-color: #000;
+	color: #fff;
+	margin-left:34px;
+}
+.login_admincp button:hover{
+	background: grey;
+	font-size: 15px;
+}
+
+table.themdanhmuc{
+	margin-left: 800px;
+	width: 18%; 
+}
+table.themdanhmuc th, td {
+    padding: 8px;
+    text-align: left;
+    border-top: 1px solid #dee2e6;
+
+}
+input.btthemdanhmuc {
+    width: 70%;
+    font-size: 17px;
+    margin-left: 49px;
+    background: #1C1C1C;
+    color: #FFF;
+    border-radius: 6px;
+    cursor: pointer;
+}
+input.btnsuadanhmuc{
+	width: 70%;
+    font-size: 17px;
+    margin-left: 49px;
+    background: #1C1C1C;
+    color: #FFF;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.lietkedanhmuc{
+	margin-left: 500px;
+}
+input.btthemsanpham {
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 14em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+th{
+	background: #000;
+	color: #fff;
+	height: 50px;
+    font-size: 18px;
+}
+table.themsanpham {
+    width: 40%;
+    margin-left: 36em;
+}
+i.fas.fa-trash-alt {
+    color: red;
+    font-size: 22px;
+    margin-left: 15px;
+}
+i.fas.fa-pencil-alt {
+	color: blue;
+    font-size: 22px;
+}
+i.fas.fa-hammer{
+	color: blue;
+    font-size: 22px;
+}
+.hoadonphu{
+    height: 800px;
+    width: 70%;
+    border: 2px dotted;
+    margin: 0 auto;
+}
+.hoadonphu ul{
+	list-style: none;
+	text-align: center;
+	margin-top: 67px;
+}
+.hoadonphu ul li{
+	font-size: 18px;
+}
+.hoadonphu table{
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+.form__tong{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+}
